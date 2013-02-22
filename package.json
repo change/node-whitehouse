@@ -1,0 +1,13 @@
+{
+  "name": "whitehouse",
+  "version": "0.0.1",
+  "description": "Whitehouse API module",
+  "main": "lib/WhiteHouse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "gitHead": "4710121e3255ecf38bcc4f9f6a139a759e531ef1"
+}
