@@ -32,23 +32,23 @@ whApi.getPetitions(function(output) {
 
 Exact details of available filters are on the [We The People documentation](https://petitions.whitehouse.gov/developers).
 
-=== getPetitions(fn)
+### getPetitions(fn)
 
 Get all petitions call `fn` with the data.
 
-=== getPetitions(filter, fn)
+### getPetitions(filter, fn)
 
 Get all petitions that match the `filter` object, call `fn` with the data.
 
-=== getPetition(id, fn)
+### getPetition(id, fn)
 
 Get petition matching `id` call `fn` with the data.
 
-=== getSignatures(id, fn)
+### getSignatures(id, fn)
 
 Get signatures matching petition `id` call `fn` with the data.
 
-=== getSignatures(id, filter, fn)
+### getSignatures(id, filter, fn)
 
 Get signatures matching petition `id` and `filter` call `fn` with the data.
 
