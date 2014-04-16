@@ -26,7 +26,13 @@ describe('getPetitions', function() {
   })
   describe('when called with the wrong number of arguments', function() {
     it('should throw and error', function() {
+      var stub = sinon.stub(whApi, 'apiCall')
 
+      whApi.getPetitions.bind(null).should.throw()
+      whApi.getPetitions.bind(null, 'fakeParams', 'fakeCallback', 'extraArg').should.throw()
+      stub.called.should.be.false
+
+      whApi.apiCall.restore()
     })
   })
 })
