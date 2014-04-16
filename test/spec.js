@@ -9,4 +9,9 @@ describe('getPetitions', function() {
 
     })
   })
+  describe('when called with two arguments (params, cb)', function() {
+    it('should pass the arguments to the api call function', function() {
+
+    })
+  })
 })
