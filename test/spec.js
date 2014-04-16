@@ -36,3 +36,21 @@ describe('getPetitions', function() {
     })
   })
 })
+
+describe('getSignatures', function() {
+  describe('when called with two arguments (petition, cb)', function() {
+    it('should pass the arguments to the api call function', function() {
+
+    })
+  })
+  describe('when called with three arguments (petition, params, cb)', function() {
+    it('should pass the arguments to the api call function', function() {
+
+    })
+  })
+  describe('when called with the right number of arguments', function() {
+    it('should throw an error', function() {
+
+    })
+  })
+})
