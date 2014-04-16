@@ -14,4 +14,9 @@ describe('getPetitions', function() {
 
     })
   })
+  describe('when called with the wrong number of arguments', function() {
+    it('should throw and error', function() {
+
+    })
+  })
 })
