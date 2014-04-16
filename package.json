@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": { "type" : "git", "url" : "http://github.com/change/node-whitehouse.git" },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/change/node-whitehouse.git"
+  },
   "author": "Tom Hughes-Croucher (tom@change.org)",
   "license": "BSD",
-  "gitHead": "4710121e3255ecf38bcc4f9f6a139a759e531ef1"
+  "gitHead": "4710121e3255ecf38bcc4f9f6a139a759e531ef1",
+  "devDependencies": {
+    "sinon": "~1.9.1",
+    "mocha": "~1.18.2",
+    "should": "~3.3.1"
+  }
 }
