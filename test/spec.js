@@ -6,7 +6,12 @@ var should = require('should')
 describe('getPetitions', function() {
   describe('when called with one argument (cb)', function() {
     it('should pass the callback to the api call function', function() {
+      var stub = sinon.stub(whApi, 'apiCall')
 
+      whApi.getPetitions('fakeCallback')
+      stub.called.should.be.true
+
+      whApi.apiCall.restore()
     })
   })
   describe('when called with two arguments (params, cb)', function() {
