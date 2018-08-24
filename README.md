@@ -2,7 +2,9 @@
 
 ## Overview
 
-Currently this module only supports the we the people APIs. However we'll add support for other parts of the WH APIs over time. Pull requests welcome
+This module was built to support integration with the White House's _We The People_ petitions API.
+That service has now been discontinued by the White House, so we are regretfully archiving this
+project for now.
 
 ## Installation
 
