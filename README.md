@@ -16,11 +16,12 @@ npm install whitehouse
 
 ## License
 
-This project is licensed under the BSD license 
+This project is licensed under the BSD license.
 
 ## Usage
 
-Simply include the `whitehouse` module and then create a new API object you can then call methods to make requests. 
+Simply include the `whitehouse` module and then create a new API object you can then call methods to
+make requests.
 
 ```javascript
 var wh = require('whitehouse'),
@@ -32,7 +33,8 @@ whApi.getPetitions(function(output) {
 })
 ```
 
-Exact details of available filters are on the [We The People documentation](https://petitions.whitehouse.gov/developers).
+Exact details of available filters are on the
+[We The People documentation](https://petitions.whitehouse.gov/developers).
 
 ### getPetitions(fn)
 
@@ -83,14 +85,16 @@ whApi.getPetitions(function(output) {
 
 ## Legacy
 
-When creating API objects the setting of an API Key is still supported from an earlier version of the API.
+When creating API objects the setting of an API Key is still supported from an earlier version of
+the API.
 
 ```javascript
 whApi = wh.createWhiteHouse(apiKey)
 ```
 
-You can also pass a second parameter to the contructor to set the `mock` value. This was originally used to get mock requests for testing.
+You can also pass a second parameter to the contructor to set the `mock` value. This was originally
+used to get mock requests for testing.
 
 ```javascript
-whApi = wh.createWhiteHouse(apiKey,true) //use mock requests
+whApi = wh.createWhiteHouse(apiKey,true) // use mock requests
 ```
